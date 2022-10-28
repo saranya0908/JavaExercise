@@ -19,7 +19,8 @@ public class Steps {
 		driver = new ChromeDriver();
 		driver.get("https://www.ixl.com/signin");
 		driver.manage().window().maximize();
-		System.out.println("test");
+		System.out.println("test1");
+		System.out.println("test2");
 	}
 	
 	@When("I enter correct user id and password")
